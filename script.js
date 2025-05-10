@@ -125,3 +125,24 @@ document.addEventListener('DOMContentLoaded', () => {
         navMenu.classList.toggle('active');
     });
 });
+
+// Script para desplazamiento suave al hacer clic en los enlaces del header
+document.addEventListener('DOMContentLoaded', () => {
+    const headerLinks = document.querySelectorAll('header nav ul li a');
+
+    headerLinks.forEach(link => {
+        link.addEventListener('click', (event) => {
+            const targetId = link.getAttribute('href');
+            if (targetId.startsWith('#')) {
+                event.preventDefault();
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 50, // Ajusta el desplazamiento según el tamaño del header
+                        behavior: 'smooth'
+                    });
+                }
+            }
+        });
+    });
+});

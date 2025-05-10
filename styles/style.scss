@@ -165,7 +165,25 @@ main {
     }
 }
 
+/* Estilo para el botón de descargar CV */
+.download-cv {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
 
+.download-cv:hover {
+    background-color: #00bcd4;
+    color: #fff;
+}
 
 /* Estilo para la galería de certificados */
 #certificates {
