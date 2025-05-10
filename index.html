@@ -3,9 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <meta name="description" content="Portfolio de Santiago Cavanna, desarrollador web.">
+    <meta name="keywords" content="portfolio, Santiago Cavanna, desarrollador web, proyectos, contacto">
+    <meta name="author" content="Santiago Cavanna">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./img/codingBlack.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.typekit.net/nvm6cmt.css">
+    <title>Santiago Cavanna|Portfolio</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html"><img src="./img/coding.png" alt="" style="width: 3rem;"></a></li>
+                <li><a href="#about">Sobre Mi</a></li>
+                <li><a href="#certificates">Certificados</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <main>
+        <section id="main">
+            <h1></h1>
+            <p></p>
+            <p></p>
+            <a href="https://www.instagram.com/santicavanna.dev" target="_blank"><img src="./img/instagram2.png" alt="" style="width: 4rem; margin: 1rem;"></a>
+            <a href="https://www.linkedin.com/in/santiago-valentin-cavanna-5703bb24a/" target="_blank"><img src="./img/linkedin.png" alt="" style="width: 4rem; margin: 1rem;"></a>
+            <a href="https://github.com/cavanna11" target="_blank"><img src="./img/github.png" alt="" style="width: 4rem; margin: 1rem;"></a>
+        </section>
+    </main>
+    <section id="about">
+            <h2>Sobre Mi</h2>
+            <p>¡Hola! Soy <span>Santiago Valentín Cavanna</span>, estudiante de <span>Ingeniería Informática</span> apasionado por la tecnología y el <span>desarrollo web</span>. Desde mis primeros pasos en la programación descubrí que disfruto crear soluciones digitales que combinan funcionalidad y diseño.
+
+                Tengo experiencia desarrollando sitios con <span>HTML, CSS y JavaScript</span>, así como personalizando plataformas en <span>WordPress</span>. También trabajo con herramientas como <span>Bootstrap y Sass</span>, y cuento con conocimientos básicos en bases de datos <span>MySQL</span>.
+
+                Actualmente <span>estudio en la Universidad Atlántida Argentina</span> y me sigo formando con cursos y proyectos prácticos que me permiten crecer como desarrollador. Me considero una persona proactiva, curiosa y adaptable, siempre con ganas de aprender algo nuevo y aportar lo mejor de mí a cada proyecto.
+
+                Podés ver mis trabajos en GitHub y seguir mi camino en el mundo tech a través de mis redes.</p>
+
+            </section>
+            
+            <section id="certificates">
+                <svg id="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                  <path fill="#ffffff" fill-opacity="1" d="M0,0L120,5.3C240,11,480,21,720,69.3C960,117,1200,203,1320,245.3L1440,288L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
+                </svg>
+                <h2>Certificados</h2>
+                <div class="gallery">
+                    <img src="./img/uaa.png" alt="Ingeniería Informática">
+                    <img src="./img/teclab.png" alt="Auxiliar en Programación">
+                    <img src="./img/desarrolloweb.png" alt="Curso Desarrollo Web">
+                    <img src="./img/javascript.png" alt="Curso JavaScript">
+                    <img src="./img/wordpress.png" alt="Curso WordPress">
+                </div>
+            </section>
+            <section id="projects">
+            <h2>Proyectos</h2>
+            <div class="projects-container">
+                <div class="project">
+                    <a href="index.html" target="_blank">
+                        <img src="./img/portf.png" alt="Mi Portfolio">
+                    </a>
+                    <p>Este es mi portfolio personal donde muestro mis habilidades y proyectos. (En donde se encuentra actualmente)</p>
+                </div>
+                <div class="project">
+                        <img src="./img/ayudabarrial.png" alt="E-Commerce Supermercado" >
+                    <p>Un sitio de E-Commerce diseñado para un supermercado local.</p>
+                </div>
+                <div class="project">
+                    <a href="https://barbanegra.netlify.app/" target="_blank">
+                        <img src="./img/barbanegra.png" alt="Fábrica de Ron" >
+                    </a>
+                    <p>Un sitio web para una fábrica de ron, destacando su historia y productos. Este sitio fue el primero de todos los que hice.</p>
+                </div>
+                <div class="project">
+                        <img src="./img/industria.png" alt="Fiambrería con E-Commerce" >
+                    <p>Un sitio de E-Commerce para una fiambrería, con catálogo y carrito de compras.</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <footer id="contact">
+        <h2>Contacto</h2>
+        <div class="social-links">
+            <a href="https://www.instagram.com/santicavanna.dev/" target="_blank">
+                <img src="./img/instagram2.png" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/santiago-valentin-cavanna-5703bb24a/" target="_blank">
+                <img src="./img/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/cavanna11" target="_blank">
+                <img src="./img/github.png" alt="GitHub">
+            </a>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
